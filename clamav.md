@@ -36,7 +36,9 @@ Installing Clamav and clamtk [GUI frontend for calmav]
 
 ``` 
 $ yum install clamav clamd
+$ yum install --nogpgcheck https://bitbucket.org/davem_/clamtk/downloads/clamtk-5.25-1.el7.noarch.rpm
 ```
+
 Starting and enabling **ClamAV** and **FreshClam** [Freshclam is a virus defination updater]
 ```
 systemctl start clamad.service
@@ -44,6 +46,8 @@ systemctl enable clamd.service
 systemctl start clamav-freshclam.service
 systemctl enable clamav-freshclam.service
 ```
+
+
 
 # Installing and configuring **ClamAV** on ubuntu
 
