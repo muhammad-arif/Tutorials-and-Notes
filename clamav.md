@@ -22,10 +22,10 @@ $ yaourt -S clamtk-gnome
 ```
 Starting and enabling **ClamAV** and **FreshClam** [Freshclam is a virus defination updater]
 ```
-systemctl start clamav-daemon.service
-systemctl enable clamav-daemon.service
-systemctl start clamav-freshclam.service
-systemctl enable clamav-freshclam.service
+$ systemctl start clamav-daemon.service
+$ systemctl enable clamav-daemon.service
+$ systemctl start clamav-freshclam.service
+$ systemctl enable clamav-freshclam.service
 
 ``` 
 
@@ -41,10 +41,10 @@ $ yum install --nogpgcheck https://bitbucket.org/davem_/clamtk/downloads/clamtk-
 
 Starting and enabling **ClamAV** and **FreshClam** [Freshclam is a virus defination updater]
 ```
-systemctl start clamad.service
-systemctl enable clamd.service
-systemctl start clamav-freshclam.service
-systemctl enable clamav-freshclam.service
+$ systemctl start clamad.service
+$ systemctl enable clamd.service
+$ systemctl start clamav-freshclam.service
+$ systemctl enable clamav-freshclam.service
 ```
 
 
@@ -59,10 +59,10 @@ $ sudo apt-get install clamav clamav-daemon clamav-freshclam
 Starting and enabling **ClamAV** and **FreshClam** [Freshclam is a virus defination updater]
 
 ```
-systemctl start clamav-daemon.service
-systemctl enable clamav-daemon.service
-systemctl start clamav-freshclam.service
-systemctl enable clamav-freshclam.service
+$ systemctl start clamav-daemon.service
+$ systemctl enable clamav-daemon.service
+$ systemctl start clamav-freshclam.service
+$ systemctl enable clamav-freshclam.service
 
 ```
 
