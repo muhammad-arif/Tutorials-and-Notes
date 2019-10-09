@@ -168,10 +168,18 @@ Check Cluster health,
 ```
 
 More doc to follow,
+
+
 [1. Bootsraping Cluster](https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-discovery-bootstrap-cluster.html#modules-discovery-bootstrap-cluster-joining)
+
 [2. Important Discovery Cluster information](https://www.elastic.co/guide/en/elasticsearch/reference/current/discovery-settings.html#unicast.hosts)
+
 [3. Discovery and Cluster formation](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/modules-discovery.html)
+
 [4. Important System Configuration](https://www.elastic.co/guide/en/elasticsearch/reference/current/system-config.html)
+
 [5. Simple Tutorial by Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-production-elasticsearch-cluster-on-centos-7)
+
 [6. Hardware Resource Allocation](https://www.elastic.co/guide/en/elasticsearch/guide/current/hardware.html)
+
 [6. Simple Tutorial by Logz.io](https://logz.io/blog/elasticsearch-cluster-tutorial/)
