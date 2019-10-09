@@ -103,9 +103,11 @@ Elasticsearch have the following [Built-in roles]([https://www.elastic.co/guide/
   
 Generating password for **all** the built-in roles,  
 The following command will prompt you for each role hence you have to type your password about **6 x 2** times. This password will later be used in `kibana.yml`, `logstash.yml`, `beats.yml` etc. config files.  
+
 ```  
 [root@siem01 ~]# /usr/share/elasticsearch/bin/elasticsearch-setup-passwords interactive  
-```   user Kibana uses to connect and communicate with Elasticsearch.  
+```
+user Kibana uses to connect and communicate with Elasticsearch.  
 - `logstash_system`: The user Logstash uses when storing monitoring information in Elasticsearch.  
 - `beats_system`: The user the Beats use when storing monitoring information in Elasticsearch.  
 - `apm_system`: The user the APM server uses when storing monitoring information in Elasticsearch.  
